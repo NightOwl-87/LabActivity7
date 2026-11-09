@@ -147,4 +147,5 @@ The backend requireAuth middleware checks whether a request contains a valid JWT
 
 ## Author
 Christian Borlaza
+
 Student Directory Application Project
