@@ -25,6 +25,7 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api/students', studentRoutes);
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/upload', require('./routes/upload'));
+app.use('/api/departments', require('./routes/departments'));
 
 app.use((err, req, res, next) => {
     if (err instanceof require('multer').MulterError) {
